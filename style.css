@@ -6,6 +6,9 @@ body{
     Color: #ffffff;
    
 }
+section{
+    height: 100vh;
+}
 
 /* Header Section*/
 /*add onscroll effects using Js*/
@@ -40,9 +43,6 @@ li{
     flex-direction: column;
     align-items: center;
     
-}
-.section{
-    height: 100vh;
 }
 /*LINKS in GENERAL*/
 a{
@@ -113,4 +113,26 @@ p{
     
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+/*Project Section*/
+.projects-container{
+    display: flex;
+    height: 50vh;
+    padding: 100px 20px;
+}
+.project-tile{
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*ABOUT SECTION*/
+
+
+/*FOOTER*/
+.footer-p{
+    font-size: 10px;
 }
