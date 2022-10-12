@@ -1,16 +1,21 @@
-*{
-    font-family: sans-serif;
+body{
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
-    
+    background-color: #001D3D;
     Color: #ffffff;
+   
 }
 
 /* Header Section*/
+/*add onscroll effects using Js*/
 header{
     width: 100%;
     padding: 10px;
+    position: fixed;
+    top: 0;
 }
+
 nav{
     display:flex;
     flex-direction: column;
@@ -36,15 +41,61 @@ li{
     align-items: center;
     
 }
-
+.section{
+    height: 100vh;
+}
 /*Hero-Section*/
-
+.hero-section{
+    
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .hero{
     display: flex;
-    flex-direction: row;
-    background: url("/bg.svg");
-    background-color: #001D3D;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    padding-left:100px;
+   
 }
-.hero-column{
-    margin: 100px;
+
+h1{
+    width: 80%;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 1;
+    
+    
+}
+
+h1, p{
+    margin: 0;
+}
+
+p{
+    font-size: 24px;
+    
+}
+
+.hero-btn{
+    background-color: #db00b6;
+    color: #fff;
+    border:none;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+.hero-btn:hover{
+    background-color: fuchsia;
+    transition: 1s;
+    transform: scale(1.1);
 }
