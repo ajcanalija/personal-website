@@ -95,7 +95,7 @@ h1, p{
     margin: 0;
 }
 
-p{
+.hero-p{
     font-size: 24px;
     
 }
@@ -122,35 +122,62 @@ p{
     padding: 100px 20px;
 }
 .project-tile{
-    background-color: rgba(255,255,255, 0.1);
+    background-color: rgba(255,255,255, 1);
     width: 300px;
-    padding: 20px;
+    height: 500px;
+    padding: 40px;
     margin: 20px;
     border-radius: 10px;
+    color: #001D3D;
 }
 
 .project-tile:hover{
-    background-color: rgba(255,255,255, 0.5);
     transition: 0.5s;
     transform: scale(1.1);
 }
+
+.project-icon{
+    width: 200px;
+    padding: 40px;
+}
+
+.project-btn{
+    background-color: #ffc300;
+    color:#001D3D;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    margin: 40px 0px;
+}
+
+/* SECTION HEADER */
 .section-header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
-/*ABOUT SECTION*/
+
 h3{
     font-size: 60px;
     margin-bottom:0;
 
 }
 hr{
+    position: relative;
+    background: gold ;
+    height: 2px;
     border:2px solid gold;
-    margin-top:0;
+    margin:0;
     width: 40px;
+    align-self: flex-start;
+    
 }
+
+
+/*ABOUT SECTION*/
+
 
 /*FOOTER*/
 .footer-p{
