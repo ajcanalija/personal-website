@@ -177,7 +177,19 @@ hr{
 
 
 /*ABOUT SECTION*/
+.about-container{
+    display: flex;
+    
+    
+}
 
+.about-tile{
+    margin: 20px;
+}
+
+#about-img{
+    width: 400px;
+}
 
 /*FOOTER*/
 .footer-p{
