@@ -6,9 +6,39 @@ body{
     Color: #ffffff;
    
 }
+
 section{
-    height: 100vh;
+    width:100%;
+    
 }
+
+/* SECTION HEADER */
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #db00b6;
+    padding: 0px 100px;
+}
+
+
+h3{
+    font-size: 60px;
+    margin-bottom:0;
+
+}
+hr{
+    position: relative;
+    background: gold ;
+    height: 2px;
+    border:2px solid gold;
+    margin:0;
+    width: 40px;
+    align-self: flex-start;
+    
+}
+
 
 /* Header Section*/
 /*add onscroll effects using Js*/
@@ -118,8 +148,9 @@ h1, p{
 /*Project Section*/
 .projects-container{
     display: flex;
-    height: 50vh;
-    padding: 100px 20px;
+    height: 100vh;
+    align-items:  center;
+    justify-content: center;
 }
 .project-tile{
     background-color: rgba(255,255,255, 1);
@@ -151,47 +182,31 @@ h1, p{
     margin: 40px 0px;
 }
 
-/* SECTION HEADER */
-.section-header{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-h3{
-    font-size: 60px;
-    margin-bottom:0;
-
-}
-hr{
-    position: relative;
-    background: gold ;
-    height: 2px;
-    border:2px solid gold;
-    margin:0;
-    width: 40px;
-    align-self: flex-start;
-    
-}
 
 
 /*ABOUT SECTION*/
 .about-container{
     display: flex;
-    
+    height: 80vh;
+    align-items:  center;
+    justify-content: center;
     
 }
-
 .about-tile{
+    width: 600px;
+    padding: 40px;
     margin: 20px;
+    border-radius: 10px;
 }
 
 #about-img{
-    width: 400px;
+    width: 300px;
+    height: 300px;
+    border-radius:10px;
 }
 
 /*FOOTER*/
 .footer-p{
     font-size: 10px;
 }
+
